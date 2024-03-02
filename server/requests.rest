@@ -1,0 +1,10 @@
+POST http://localhost:5173/api/todo
+Content-Type: application/json
+
+{
+    "title": "Hello",
+    "comment": "HELLO2",
+}
+
+###
+GET http://localhost:5173/api/todo
